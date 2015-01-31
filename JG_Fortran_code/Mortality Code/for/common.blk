@@ -1,0 +1,20 @@
+       common/mort00/ itbeg,itend,n,i_reg_type
+	   common/mort01/ dm(1900:3500,0:180),df(1900:3500,0:180)
+       common/mort02/ ddm_pct(1900:2200,0:180),ddf_pct(1900:2200,0:180)
+	   common/mort03/ ave_ddm(0:180), ave_ddf(0:180)
+	   common/mort04/ xdata_m(100),xdata_f(100),ydata_m(100),ydata_f(100)
+	   common/mort04/ stat_m(12),stat_f(12)
+	   common/mort05/ a_intercept_m(0:180), a_intercept_f(0:180)
+	   common/mort06/ a_slope_m(0:180), a_slope_f(0:180)
+c
+       common/ssa001/ dth_rate_m(1979:3500,3,26,7),dth_rate_f(1979:3500,3,26,7)
+	   common/ssa002/ ddth_rate_m(3,5,7),ddth_rate_f(3,5,7)
+	   common/ssa003/ total_dth_rate_m(1979:2100,3,26),total_dth_rate_f(1979:2100,3,26)
+	   common/ssa004/ wgted_dth_rt_m(0:180),wgted_dth_rt_f(0:180)
+	   common/ssa005/ p(10)
+c
+	   common/char01/ alt,mspace,name(0:7)
+c
+       character*41 name
+       character*3 alt
+	   character*15 mspace

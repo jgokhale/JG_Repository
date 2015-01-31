@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jan 15 19:38:36 2015
+        MODULE LINEAR_REGRESSION_mod
+          INTERFACE 
+            SUBROUTINE LINEAR_REGRESSION(X,Y,NOBS,LDX,B)
+              INTEGER(KIND=4) :: LDX
+              INTEGER(KIND=4) :: NOBS
+              REAL(KIND=8) :: X(LDX,3)
+              REAL(KIND=8) :: Y(NOBS)
+              REAL(KIND=8) :: B(4)
+            END SUBROUTINE LINEAR_REGRESSION
+          END INTERFACE 
+        END MODULE LINEAR_REGRESSION_mod
